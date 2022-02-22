@@ -1,18 +1,29 @@
-<style>
-main {
-    color: rgb(5, 5, 5)
-}
-body { 
-background-color: rgb(15, 184, 206);
-}
-.column {
-        float: left;
-        width: 33.33%;
-        padding: 5px;
+p { background-color: rgb(224, 229, 230);
+        border-width: 5px;
+        border-color:black;
+        padding: 10px;
+        margin: 20px;
+        width: 80%;
+     }
+
+h1 {color:blue;
+    padding: 10px;
+    margin: 20px;
+    width: 80%;
     }
-    .row::after {
-        content: "";
-        clear: both;
-        display: table;
+
+img {padding: 10px;
+     margin: 20px;
     }
-</style>
+
+.comicrelief { 
+    height: 20%;
+    width: 80%;
+    color: rgb(15, 184, 206);
+    background-color: rgb(54, 54, 54);
+    border-width: 5px;
+    border-color:rgb(97, 96, 96);
+    border-style:dashed;
+    padding: 10px;
+    margin: 20px;
+    }
